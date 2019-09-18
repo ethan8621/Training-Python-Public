@@ -8,6 +8,7 @@ class addN(object):
     def __init__(self, n):
         self.n = n
 # 括号运算符
+
     def __call__(self, x):
         return x+self.n
 
